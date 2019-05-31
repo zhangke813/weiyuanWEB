@@ -1,0 +1,142 @@
+#footer{
+	width: 100%;
+}
+#footer .server{
+	width: 93%;
+	height: 100px;
+	border-bottom: 1px solid #d0d0d0;	
+
+}
+#footer .server li{
+	float: left;
+}
+#footer .server .server_item{
+	width: 200px;
+	height: 80px;
+	line-height: 50px;
+	margin-left: 125px ;
+	margin-top: 30px;
+	text-align: center;
+}
+.fix{
+	background: url(../image/footer_fix.jpg) no-repeat;
+}
+.fix1{
+	background: url(../image/footer_return.jpg) no-repeat;
+}
+.fix2{
+	background: url(../image/footer_change.jpg) no-repeat;
+}
+.fix3{
+	background: url(../image/footer_fix30.jpg) no-repeat;
+}
+#footer .right_line{
+	width: 1px;
+	height: 70px;
+	background: #D0D0D0;
+	margin-top: 20px;
+
+}
+#footer .online_server{
+	width: 93%;
+	height: 150px;
+  /*  border: 1px solid red;*/
+}
+#footer .online_item{
+	width: 170px;
+	float: left;
+	margin: 0px 50px;
+	font-size: 15px;
+	color: #9D9D9D;
+}
+#footer .online_server li{
+	float: left;
+	line-height: 25px;
+	margin-left: 30px;
+}
+
+#footer .online_item span{
+	color: black;
+	font-size: 15px;
+	font-family: "黑体";
+	float :left;
+	margin-left: 30px;
+
+	
+}
+#footer .online_item .t1{
+	font-size: x-small;
+	float: right;
+	margin-left: 51px;
+}
+#footer .online_item .t2{
+	width: 170px;
+	font-size: x-small;
+	margin-left: 51px;
+	margin-top: 5px;
+	
+}
+#footer .online_item .t3{
+	width: 170px;
+	font-size:20px;
+	font-family:"黑体";
+	color: black;
+	margin-left: 51px;
+	margin-top: 10px;
+}
+#footer .online_item .t4{
+	background: url(../image/footer_onlineservice.jpg) no-repeat;
+	width: 170px;
+	font-size: x-small;
+	margin-left: 55px;
+	border: 1px solid gray;
+	border-radius: 15px;
+	margin-top: 5px;
+}
+
+
+#footer .mylink{
+	/*border: 1px solid blue;*/
+	height: 200px;
+	width: 93%;
+	text-align: center;
+}
+#footer .mylink li{
+	float: left;
+}
+#footer .it{
+/*	border: 1px solid red;*/
+	margin-top: 38px;
+	color: red;
+	font-family: '黑体';
+	font-size: 30px;
+	line-height: 40px;
+}
+#footer .link_item{
+	/*border: 1px solid black;*/
+	width: 200px;
+	line-height: 200px;
+	margin-top: 40px;
+	text-align: center;
+}
+#footer .mylang{
+	width: 100%;
+	height: 200px;
+	color: white;
+	background: black;
+	/*border: 1px solid black;*/
+	text-align: center;
+}
+#footer .my{
+/*	border: 1px solid black;*/
+	margin-top: 20px;
+	font-size: 15px;
+	line-height: 25px;
+	font-family: '黑体';
+    float: left;
+	margin-left: 25%;
+/*    margin-top: 2%;*/
+}
+#footer .my a{
+	color: white;
+}

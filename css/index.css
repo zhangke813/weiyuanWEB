@@ -1,0 +1,156 @@
+/*关于我们*/
+#body .border{
+	padding: 20px 50px;
+}
+#body{
+	text-align: center;	
+}
+#about{
+	margin: 150px 0 50px 0;
+}
+#body  .title{
+	font-size: 25px;
+	font-weight: 500;
+	font-family:"黑体";	
+}
+#body .splitlin{
+	background: url(../image/splitline.jpg) repeat-x center center;
+}
+#body .splitlin span{
+	width: 250px;
+	font-size: 14PX;
+	background-color:white ;
+	display: block;
+}
+#body .detail{
+	font-size: 12px;
+	color: #6B6B6B;
+	line-height: 23px;
+	font-family: "微软雅黑";
+}
+#body .more{
+	margin: 25px 0;
+	background-color: white;
+	width: 80px;
+	height: 25px;
+    border-radius: 15px;
+	border: 1px solid #9D9D9D;
+	outline: none;
+}
+#body img{
+	width: 100%;
+}
+ /*产品中心*/
+#body .box{
+	width: 100%;
+	margin:30px 0 20px ;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	display: flex;
+}
+#body .item{
+	flex: 1;
+}
+#body .img_name{
+	font-weight: bold;
+	height: auto;
+	width: auto;
+	
+}
+#body .img_detail{
+	font-size: 12px;
+	width: 300px;
+	margin-top: 10px;
+	
+	color: #878787;
+
+}
+#body .itme{
+	flex: 1;
+	margin: 10px 10px;
+}
+/*新闻动态*/
+#news {
+	background: black;
+}
+#news .white{
+	color: white;
+
+}
+#news .splite_black{
+	background: url(../image/splitline_black.jpg) repeat-x center center;
+}
+#news .splite_black span{
+	background: black;
+    color: white;
+    
+}
+#news .new_box{
+	color: white;
+}
+#news .new_box{
+	display: flex;
+	flex-flow: row  wrap;
+	align-items: center;
+	justify-content: space-between; 
+}
+#news .new_item{
+	flex: 1;
+	text-align: left;
+	
+}
+#news .new_item a{
+	color: red;
+}
+#news .news_detail{
+	width: 550px;
+	margin: 15px 0px 10px 0px ;
+}
+#news .new_item:hover{
+	background:  #393939;
+}
+#news .more_black{
+	background-color: black;
+    color: white;
+    text-align: center;
+}
+/*联系我们*/
+#contact .contact_mail{
+	width: 250px;
+	height: 30px;
+	background: url(../image/contact_mail.jpg) no-repeat left center;
+	float: left;
+	margin: 10px 0px;
+	
+}
+#contact .contact_tel{
+	width: 250px;
+	height: 30px;
+	background: url(../image/contact_tel.jpg) no-repeat left center;
+	float: right;
+	margin: 10px 0px;
+	
+}
+#contact input[type="text"]{/*属性选择器 type=“text*/
+	width: 600px;
+	height: 30px;
+	margin: 20px 0px;
+	
+}
+#contact textarea{
+	width: 600px;
+	height: 100px;
+	margin: 20px 0px;
+	resize: none;/*多行文本框不允许拖动*/
+}
+#contact input[type ="submit"]{
+	width: 150px;
+	height: 30px;
+	background:#7983f2;
+	margin: 20PX;
+	margin-left: 53PX;
+	float: left;	
+	color: white;
+	border: 0;
+}
